@@ -13,11 +13,12 @@ func main() {
 	homemap := make(map[string][]string)
 	homemap["Greek"] = []string{"Souvlaki", "Gyro", "Tyrokafteri", "Melinzanosalata"}
 	homemap["Italian"] = []string{"Margerrita Pizza", "Arabiatta Pasta", "Alfredo Pasta"}
-	homemap["Arabic"] = []string{"Shawarma", "Hummus", "Baba Ganoush", "Vine Leaves", "Grilled Chicken"}
+	homemap["Arabic"] = []string{"Shawarma", "Hummus", "Baba Ganoush", "Vine Leaves", "Grilled Chicken", "Fattoush Salad", "Manakeesh", "Falafel", "Lentil Soup"}
 	homemap["South Indian"] = []string{"Dosa", "Uttapam", "Idly", "Medu Vada"}
-	homemap["North Indian"] = []string{"Butter Chicken", "Biryani", "Chaat", "Rajma Rice", "Kadhi Rice"}
+	homemap["North Indian"] = []string{"Butter Chicken", "Biryani", "Chaat", "Rajma Rice", "Kadhi Rice", "Palak Paneer"}
 	homemap["Burgers"] = []string{"Chicken Burger"}
 	homemap["Desserts"] = []string{"Waffles", "Crepe", "Gujiya", "Ras Malai", "Gulab Jamun", "Kunafa", "Carrot Baklava"}
+	homemap["Healthy"] = []string{"Fusili Pasta Salad", "Black Rice Salad"}
 
 	officemap := make(map[string][]string)
 	officemap["Pasta & Co"] = []string{"Arabiatta Pasta"}
